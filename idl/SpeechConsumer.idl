@@ -1,0 +1,11 @@
+/**
+ * Filename = SpeechConsumer.idl
+ * 
+ **/
+module Consumer {
+
+	interface SpeechConsumer {
+	  void write (in string speechstate);
+	};
+
+};

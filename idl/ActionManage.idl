@@ -1,0 +1,11 @@
+/**
+ * Filename = ActionManage.idl
+ * 
+ **/
+module Action {
+
+	interface ActionManage {
+	  void read (in string actionid);
+	};
+
+};

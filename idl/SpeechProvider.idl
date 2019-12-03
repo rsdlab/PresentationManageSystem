@@ -1,0 +1,11 @@
+/**
+ * Filename = SpeechProvider.idl
+ * 
+ **/
+module Provider {
+
+	interface SpeechProvider {
+	  void read (in string speechcontents);
+	};
+
+};
